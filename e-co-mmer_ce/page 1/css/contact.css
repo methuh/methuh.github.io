@@ -1,0 +1,51 @@
+
+.contact{
+    background: var(--black);
+
+    .heading{
+        color:var(--white);
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        .map{
+            flex:1 1 41rem;
+            width: 100%;
+        }
+
+        form{
+            flex:1 1 41rem;
+            background: var(--white);
+            padding: 2rem;
+
+            h3{
+                color: var(--black);
+                text-transform: capitalize;
+                font-size: 2.5rem;
+                
+            }
+
+            .box{
+                margin: .7rem 0;
+                width:100%;
+                padding:1.5rem 0;
+                border-bottom: var(--border);
+                font-size: 1.6rem;
+                color:var(--light-color);
+
+                &:focus{
+                    border-color: var(--yellow);
+                }
+            }
+
+            textarea{
+                height: 15rem;
+                resize: none;
+            }
+        }
+    }
+}
+
+
