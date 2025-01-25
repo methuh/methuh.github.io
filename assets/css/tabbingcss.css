@@ -1,0 +1,15 @@
+/*Active-tab*/
+.tab__btn.active-tab a{
+    color: #ffffff;
+    background-color: #007aff;
+}
+
+
+.tab__item:not(.active-tab){
+    display: none;
+}
+
+
+.flexitabbingcss{
+    margin-top: 3.4587rem !important;
+}
