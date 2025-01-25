@@ -1,0 +1,258 @@
+.coNtAcT_SeCt-I-On{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #333;
+    border: 10px solid #007aff;
+    margin: 2rem;
+}
+
+.coNtAcT-cOnTa-In-eR_content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.coNtAcT-cOnTa-In-eR_content h2{
+     font-size: 3rem;
+     color: #007aff;
+     font-weight: 700;
+}
+.coNtAcT-cOnTa-In-eR_content p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.coNtAcT-cOnTa-In-eR_tExT a{
+     text-decoration: none;
+     color: #fff;
+}
+.coNtAcT-cOnTa-In-eR_tExT a:hover{
+    background: goldenrod;
+    border: 1px solid #007aff;
+    padding: 5px;
+}
+.coNtAcT-cOnTa-In-eR{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.coNtAcT-cOnTa-In-eR_inFo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.coNtAcT-cOnTa-In-eR_inFo .coNtAcT-cOnTa-In-eR_bOx{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.coNtAcT-cOnTa-In-eR_bOx .coNtAcT-cOnTa-In-eR_IcOn{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 27.5deg, #007aff 0%, #007aff 10%, transparent 10%, transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coNtAcT-cOnTa-In-eR_bOx .coNtAcT-cOnTa-In-eR_IcOn::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from 117.5deg,#007aff 0%, #007aff 10%, transparent 10%, transparent 50%);
+}
+.coNtAcT-cOnTa-In-eR_bOx .coNtAcT-cOnTa-In-eR_IcOn::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+
+.coNtAcT-cOnTa-In-eR_bOx .coNtAcT-cOnTa-In-eR_IcOn b{
+    position: absolute;
+    inset: 8px;
+    background: #007aff;
+    z-index: 2;
+}
+
+.coNtAcT-cOnTa-In-eR_bOx .coNtAcT-cOnTa-In-eR_IcOn i{
+    position: relative;
+    z-index: 1000;
+    color: #fff;
+    font-size: 1.25rem;
+}
+.coNtAcT-cOnTa-In-eR_tExT{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 300;
+}
+.coNtAcT-cOnTa-In-eR_tExT h3{
+    font-weight: 500;
+    color: #007aff;
+}
+.coNtAcT-tXt{
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 500;
+    border-left: 50px solid #007aff;
+    padding-left: 10px;
+    line-height: 1rem;
+}
+.coNtAcT_sCi{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.coNtAcT_sCi li{
+    list-style: none;
+}
+.coNtAcT_sCi li a{
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.25s;
+}
+
+.coNtAcT_sCi li a:hover{
+   color:#007aff;
+   filter: drop-shadow(0 0 5px #007aff);
+}
+.coNtAcT-cOnTa-In-eR_fOrM{
+    position: relative;
+    width: 40%;
+    background: repeating-conic-gradient(from var(--a),#007aff 0%, #007aff 10%, transparent 10%, transparent 50%);
+    animation: anImATiOn 6s linear infinite !important;
+    padding: 60px;
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from var(--a),#007aff 0%, #007aff 10%, transparent 10%, transparent 50%);
+    animation: anImATiOn 6s linear infinite !important;
+    animation-delay: -1.5s;
+
+}
+
+  
+.coNtAcT-cOnTa-In-eR_fOrM::after{
+    content: '';
+    position: absolute;
+    inset: 20px;
+    border: 20px solid #000;
+    background: #333;
+}
+
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes anImATiOn{
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
+    }
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM form{
+    position: relative;
+    z-index: 10;
+}
+.coNtAcT-cOnTa-In-eR_fOrM form h2{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX input,
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX textarea{
+    width: 100% !important;
+    padding: 5px;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #007aff;
+    color: #fff;
+    outline: none;
+    resize: none;
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX input:focus ~ span,
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX textarea:focus ~ span,
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX input:valid ~ span,
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX textarea:valid ~ span{
+    color: #007aff;
+    font-size: 0.9em;
+    transform: translateY(-24px);
+}
+
+.coNtAcT-cOnTa-In-eR_fOrM form .iNpUtBoX input[type="submit"]{
+    width: 100%;
+    background: #007aff;
+    color: #222;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+@media (max-width:991px) {
+    .coNtAcT_SeCt-I-On{
+         padding: 50px;
+    }
+    .coNtAcT-cOnTa-In-eR{
+        flex-direction: column;
+    }
+    .coNtAcT-cOnTa-In-eR_inFo,
+    .coNtAcT-cOnTa-In-eR_fOrM{
+        width: 100%;
+    }
+    .coNtAcT-cOnTa-In-eR_fOrM{
+        padding: 40px;
+    }
+    .coNtAcT-cOnTa-In-eR_fOrM form{
+        padding: 10px;
+    }
+}
